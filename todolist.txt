@@ -1,0 +1,5 @@
+1- Estudar Greedy Algorithms:
+    https://www.youtube.com/watch?v=HzeK7g8cD0Y
+2- Definir projeto.
+
+3- Montar algoritmo.
