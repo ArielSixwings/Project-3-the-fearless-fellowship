@@ -1,0 +1,26 @@
+Input
+The first line contains two integers N and F (1 ≤ F < N ≤ 105 ), representing respectively the number of landmarks and the number of your friends that are climbing the mountain. Landmarks are identified with distinct integers from 1 to N , being 1 the top of the mountain, where you initially are. Each of the next N − 1 lines describes a different track with three integers A, B and C, indicating that there is a track from A to B that goes down and requires an amount C of energy to be climbed (1 ≤ A ≤ N , 2 ≤ B ≤ N , A = B and 1 ≤ C ≤ 100). The next line contains F different integers L1 , L2 , . . . , LF (2 ≤ Li ≤ N for i = 1, 2, . . . , F ) representing the landmarks where your friends are. You may assume that the tracks between landmarks are such that there exists exactly one route that goes down from the top of the mountain to each other landmark.
+
+Output
+Output a line with an integer representing the minimum total amount of energy required to visit all your friends starting from the top of the mountain.
+
+Input Sample    Output Sample
+6 2
+1 2 2
+2 4 2
+1 3 3
+3 6 3
+3 5 1
+5 2                  2
+
+4 2
+1 2 2
+1 3 1
+3 4 2
+2 4                  2
+
+4 2
+1 4 1
+1 3 1
+4 2 2
+2 4                  0
